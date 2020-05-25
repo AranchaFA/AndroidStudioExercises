@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="cabecera">EQUIPOS 1ª DIVISIÓN</string>
+    <string name="equipoSeleccionado">Equipo seleccionado:</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="escudos">
+        <item>@drawable/almeria</item>
+        <item>@drawable/atletico_madrid</item>
+        <item>@drawable/barcelona</item>
+        <item>@drawable/celta</item>
+        <item>@drawable/cordoba</item>
+        <item>@drawable/eibar</item>
+        <item>@drawable/elche</item>
+        <item>@drawable/espanyol</item>
+        <item>@drawable/getafe</item>
+        <item>@drawable/granada</item>
+        <item>@drawable/madrid</item>
+        <item>@drawable/malaga</item>
+        <item>@drawable/rayo_vallecano</item>
+        <item>@drawable/real_sociedad</item>
+        <item>@drawable/sevilla</item>
+        <item>@drawable/valencia</item>
+        <item>@drawable/villarreal</item>
+    </array>
+
+    <array name="nombres">
+        <item>Almería</item>
+        <item>Atlético de Madrid</item>
+        <item>Barcelona</item>
+        <item>Celta de Vigo</item>
+        <item>Córdoba</item>
+        <item>Éibar</item>
+        <item>Elche</item>
+        <item>Espanyol</item>
+        <item>Getafe</item>
+        <item>Granada</item>
+        <item>Real Madrid</item>
+        <item>Málaga</item>
+        <item>Rayo Vallecano</item>
+        <item>Real Sociedad</item>
+        <item>Sevilla</item>
+        <item>Valencia</item>
+        <item>Villarreal</item>
+    </array>
+
+    <array name="puntos">
+        <item>33</item>
+        <item>27</item>
+        <item>23</item>
+        <item>23</item>
+        <item>19</item>
+        <item>12</item>
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </array>
+
+</resources>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DD363030"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_historial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:text="HISTORIAL"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/button_borrarCuenta"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button_borrarCuenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="BORRAR CUENTA"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Información de la cuenta"
+        android:textColor="#F2C4B4B4"
+        android:textSize="18sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30sp"
+        android:background="#BCBDB2B2"
+        android:padding="10sp">
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView_actualizaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actualizaciones"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView_name" />
+
+        <TextView
+            android:id="@+id/textView_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alejandra"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.14"
+            app:layout_constraintStart_toEndOf="@+id/textView_name"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Información de GPS"
+        android:textColor="#F2C4B4B4"
+        android:textSize="18sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30sp"
+        android:background="#BCBDB2B2">
+
+        <RadioButton
+            android:id="@+id/radioButton_30min"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Actualizar cada 30 minutos"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <RadioButton
+            android:id="@+id/radioButton_10min"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Actualizar cada 10 minutos"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/radioButton_30min"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="130sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bateria_casi_llena" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="130sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bateria_baja" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button_ayuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pantalla de ayuda" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20sp"
+            android:background="#00FFFFFF">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_margin="2sp"
+                android:layout_weight="1"
+                android:background="#B7B4B8"
+                android:paddingTop="20sp"
+                android:paddingBottom="20sp"
+                app:srcCompat="@drawable/bt_brujula" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_margin="2sp"
+                android:layout_weight="1"
+                android:background="#B7B4B8"
+                android:paddingTop="20sp"
+                android:paddingBottom="20sp"
+                app:srcCompat="@drawable/bt_share" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_margin="2sp"
+                android:layout_weight="1"
+                android:background="#B7B4B8"
+                android:paddingTop="20sp"
+                android:paddingBottom="20sp"
+                app:srcCompat="@drawable/bt_config" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_margin="2sp"
+                android:layout_weight="1"
+                android:background="#B7B4B8"
+                android:paddingTop="20sp"
+                android:paddingBottom="20sp"
+                app:srcCompat="@drawable/bt_like" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="0sp"
+                android:layout_height="100sp"
+                android:layout_margin="2sp"
+                android:layout_weight="1"
+                android:background="#B7B4B8"
+                android:paddingTop="20sp"
+                android:paddingBottom="20sp"
+                app:srcCompat="@drawable/bt_help" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

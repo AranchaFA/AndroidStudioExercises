@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F22C2929"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".Layouts3">
+
+    <TextView
+        android:id="@+id/tv_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0"
+        android:background="#E2E21414"
+        android:gravity="center"
+        android:text="RED"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/tv_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60"
+        android:background="#FF9800"
+        android:text="ORANGE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/tv_yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190"
+        android:background="#FFEB3B"
+        android:text="YELLOW"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/tv_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300"
+        android:background="#4CAF50"
+        android:text="GREEN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/tv_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220"
+        android:background="#2196F3"
+        android:text="BLUE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#F5FDFDFD"
+        android:textColorHighlight="#FAF1F1" />
+
+    <TextView
+        android:id="@+id/tv_indigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110"
+        android:background="#9C27B0"
+        android:text="INDIGO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#F5FDFDFD"
+        android:textColorHighlight="#FAF1F1" />
+
+    <TextView
+        android:id="@+id/tv_violet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#B687BE"
+        android:text="VIOLET"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#F5FDFDFD"
+        android:textColorHighlight="#FAF1F1" />
+
+</LinearLayout>

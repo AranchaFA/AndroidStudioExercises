@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- ESTO VA EN res/xml (no en values, ni layout)  -->
+	
+    <PreferenceCategory android:title="categoriaGeneral">
+        <EditTextPreference
+            android:defaultValue="false"
+            android:key="key_nombreUsuario"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Introduce tu nombre"
+            android:dialogTitle="Introduce tu nombre"
+            android:title="Nombre usuario" />
+        <ListPreference
+            android:defaultValue="false"
+            android:dialogTitle="Elige un email"
+            android:entries="@array/emails"
+            android:entryValues="@array/values_emails"
+            android:key="key_emails"
+            android:summary="Elige email para conectarte"
+            android:title="E-mails" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="categoriaMusica">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="key_musica"
+            android:summaryOff="Música desactivada"
+            android:summaryOn="Música activada"
+            android:switchTextOff="OFF"
+            android:switchTextOn="@android:string/VideoView_error_button"
+            android:title="Activar música" />
+    </PreferenceCategory>
+</PreferenceScreen>

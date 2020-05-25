@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/margen_botones">
+
+        <Button style="@style/EstiloBotones"
+            android:id="@+id/button_verPlatos"
+            android:text="@string/verPlatos"
+            app:layout_constraintEnd_toStartOf="@id/button_preferencias"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button style="@style/EstiloBotones"
+            android:id="@+id/button_preferencias"
+            android:text="@string/preferencias"
+            app:layout_constraintEnd_toStartOf="@id/button_salir"
+            app:layout_constraintStart_toEndOf="@id/button_verPlatos"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button style="@style/EstiloBotones"
+            android:id="@+id/button_acercaDe"
+            android:text="@string/acercaDe"
+            app:layout_constraintEnd_toStartOf="@id/button_salir"
+            app:layout_constraintStart_toEndOf="@id/button_anhadirPlato"
+            app:layout_constraintTop_toBottomOf="@id/button_preferencias" />
+
+
+        <Button style="@style/EstiloBotones.AnchoFijoAltoAjustable"
+            android:id="@+id/button_salir"
+            android:text="@string/salir"
+            app:layout_constraintBottom_toBottomOf="@id/button_acercaDe"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@id/button_preferencias"
+            app:layout_constraintTop_toTopOf="@id/button_preferencias"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button style="@style/EstiloBotones"
+            android:id="@+id/button_anhadirPlato"
+            android:text="@string/anhadirPlato"
+            app:layout_constraintEnd_toStartOf="@id/button_acercaDe"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_verPlatos" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

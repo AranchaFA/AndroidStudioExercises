@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="tipoPlato">
+        <item>Tipo de plato</item>
+        <item>Entrante</item>
+        <item>Primero</item>
+        <item>Segundo</item>
+        <item>Postre</item>
+    </array>
+    <array name="categoriaPlato">
+        <item>Categoría de plato</item>
+        <item>Carne</item>
+        <item>Pescado</item>
+        <item>Aves</item>
+        <item>Pasta</item>
+        <item>Huevos</item>
+        <item>Salsas</item>
+    </array>
+
+</resources>

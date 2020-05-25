@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorRed"
+        android:gravity="center"
+        android:text="@string/red"
+        android:textColor="@color/colorLetterBlack" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorOrange"
+        android:gravity="center"
+        android:text="@string/orange"
+        android:textColor="@color/colorLetterBlack" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorYellow"
+        android:gravity="center"
+        android:text="@string/yellow"
+        android:textColor="@color/colorLetterBlack" />
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="@string/green"
+        android:textColor="@color/colorLetterBlack" />
+
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorBlue"
+        android:gravity="center"
+        android:text="@string/blue"
+        android:textColor="@color/colorLetterWhite" />
+
+    <TextView
+        android:id="@+id/tv_6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorIndigo"
+        android:gravity="center"
+        android:text="@string/indigo"
+        android:textColor="@color/colorLetterWhite" />
+
+    <TextView
+        android:id="@+id/tv_7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorViolet"
+        android:gravity="center"
+        android:text="@string/violet"
+        android:textColor="@color/colorLetterBlack" />
+
+</LinearLayout>
